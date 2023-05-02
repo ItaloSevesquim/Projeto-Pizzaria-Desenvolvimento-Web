@@ -205,6 +205,9 @@ html {
     color: black;
 }
 
+.itens-cardapio .frango .info .pedir a:link{
+    text-decoration: none;
+}
 .itens-cardapio .compra{
     align-items: left;
     justify-content: left;
