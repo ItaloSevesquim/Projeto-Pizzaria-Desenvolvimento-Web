@@ -1,12 +1,14 @@
-let show = true;
-const menuContent = document.querySelector('.content');
-const menuToggle = menuContent.querySelector('.menu-toggle');
+function valorfinal(){
+    var total;
+    var checkboxes = document.querySelectorAll('.checkbox');
+    var som;
+    checkboxes.forEach(function(el) {
+        if(el.checked){
+            som++;
+        }
+    })
+    total=(parseInt(document.getElementsByName('tamanho').value))+(som*3);
+    console.log(total);
+    console.log(document.getElementsByName('tamanho'));
+}
 
-
-menuToggle.addEventListener('click', () => {
-
-    document.body.style.overflow = show ? 'hidden' : 'initial'
-
-    menuContent.classList.toggle('on', show);
-    show = !show;
-})
