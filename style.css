@@ -201,6 +201,15 @@ html {
     padding: 1.5rem;
 }
 
+.itens-cardapio .compra .fieldset{
+    align-items: left;
+    justify-content: left;
+    background-color:rgb(221, 221, 221);
+}
+
+.compra .label1{
+    font-size: 1.8rem;
+}
 .itens-cardapio .info h3 {
     font-size: 1.8rem;
     text-transform: uppercase;
@@ -555,4 +564,8 @@ a:link {text-decoration: none;}
     
 }
 
-
+#id-finalizar{
+    font-size: 4rem;
+    color: #ff0000;
+    text-transform: uppercase;
+}

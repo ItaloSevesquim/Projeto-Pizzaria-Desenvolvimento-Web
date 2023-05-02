@@ -1,0 +1,8 @@
+Projeto Pizzaria - Desenvolvimento Web - Professor Eduardo
+
+Alunos: Ítalo de Paula Sevesquim - RA: 2022015934
+        Túlio Alves da Rocha Andrade - RA: 2021026512
+
+GitHub: https://github.com/ItaloSevesquim/Projeto-Pizzaria-Dev-Web.git
+Vercel: https://projeto-pizzaria-eta.vercel.app/ 
+
