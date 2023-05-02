@@ -109,14 +109,16 @@ html {
     text-transform: uppercase;
     margin-bottom: 1rem;
     font-weight: 400;
+    text-align: center;
 }
 
 .first-section h2{
     color: rgb(177, 177, 177);
     font-size: 3rem;
-    font-weight: 400;
+    font-weight: 350;
     text-transform: uppercase;
     margin-bottom: 3rem;
+    text-align: center;
 }
 
 .btn button {
@@ -144,15 +146,17 @@ html {
     width: 480px;
     display: flex;
     justify-content: space-between;
-   
-}
-
-#btn-reservar{
     align-items: center;
+    text-align: center;
+    transition: all .3s ease-out;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
 }
 
 .btn a{
-    font-size: larger;
+    font-weight: 4rem;
+    text-transform: uppercase;
 }
 
 /* Cardápio */
