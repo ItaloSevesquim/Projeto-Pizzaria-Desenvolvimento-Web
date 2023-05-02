@@ -35,34 +35,43 @@
                     <img src="./img/frango-1.jpg" alt="frango">
                     <div class="info">
                         <h3>Frango</h3>
-                        <p>A Pizza de frango é feita com artesanal a base com molho de tomate, acompanhada de queijo mussarela, frango desfiado, requeijão, cebola, milho, azeitona, tomate e finalizada com azeite e orégano.</p>                        
+                        <p class="descricao">Nossa pizza de frango é feita com uma deliciosa massa artesanal a base com molho de tomate, acompanhada de queijo mussarela, frango desfiado, requeijão, cebola, milho, azeitona, tomate e finalizada com azeite e orégano.</p>                        
                         <div class="compra">
                             <label class="label1"><b>Escolha o tamanho:</b></label>
-                            <select>
-                                <option>Escolha uma das opções</option>
-                                <option  id="peq-frango" name="peq-frango" value="35">Pequena (6 fatias) <b>R$ 35,00</b></option>
-                                <option  id="med-frango" name="med-frango" value="45">Média (8 fatias) <b>R$ 45,00</b></option>
-                                <option  id="gra-frango" name="gra-frango" value="55">Grande (12 fatias)<b>R$ 55,00</option>
+                            <select name="tamanho">
+                                <option><b>Escolha uma das opções</b></option>
+                                <option  id="peq" name="peq" value="35">Pequena (6 fatias) <b>R$ 35,00</b></option>
+                                <option  id="med" name="med" value="45">Média (8 fatias) <b>R$ 45,00</b></option>
+                                <option  id="gra" name="gra" value="55">Grande (12 fatias) <b>R$ 55,00</option>
                                 <option></option>
                             </select>
                             <br><br><br>
-                            <fieldset class="fieldset">
-                                <legend>Gostaria de algum adicional?</legend>                
-                                <div>
+                            <fieldset class="compra">
+                                <label class="label1"><b>Gostaria de algum adicional?</b></label><br><br>                
+                                <div class="compra">
                                   <input type="checkbox" id="bacon" name="bacon">
-                                  <label value>Bacon</label>
+                                  <label value class="label2">Bacon <b>R$ 3,00</b></label>
                                 </div>
-                                <div>
+                                <div  class="compra">
                                     <input type="checkbox" id="calabresa" name="calabresa">
-                                    <label for="calabresa">Calabresa<b> R$ 3,00</b></label>
-                                  </div>
-                                <div>
-                                  <input type="checkbox" id="horns" name="horns">
-                                  <label for="horns"></b></label>
+                                    <label for="calabresa" class="label2">Calabresa<b> R$ 3,00</b></label>
+                                </div>
+                                <div  class="compra">
+                                  <input type="checkbox" id="frango" name="frango">
+                                  <label for="frango" class="label2">Frango<b> R$ 3,00</b></label>
+                                </div>
+                                <div  class="compra">
+                                    <input type="checkbox" id="presunto" name="presunto">
+                                    <label for="presunto" class="label2">Presunto<b> R$ 3,00</b></label>
+                                </div>
+                                <div  class="compra">
+                                    <input type="checkbox" id="mussarela" name="mussarela">
+                                    <label for="mussarela" class="label2">Mussarela<b> R$ 3,00</b></label>
                                 </div>
                             </fieldset>
-                            <button class="pedir">Finalizar</button>
-                        </div>                        
+                            
+                        </div>
+                        <button class="pedir">Finalizar</button>                       
                     </div>   
                 </div>
                 
