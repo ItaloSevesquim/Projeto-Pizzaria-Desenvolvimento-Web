@@ -10,5 +10,6 @@ function valorfinal(){
     total=(parseInt(document.getElementsByName('tamanho').value))+(som*3);
     console.log(total);
     console.log(document.getElementsByName('tamanho'));
+    console.log("teste");
 }
 
